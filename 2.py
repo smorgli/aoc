@@ -1,7 +1,7 @@
 import re
-import funs
+import helpers.funs
 
-raw = funs.getfile('input2.txt')
+raw = helpers.funs.getfile('input2.txt')
 lines = raw
 
 for i in range(0,len(lines)):
